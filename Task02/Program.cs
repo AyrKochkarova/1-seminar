@@ -10,4 +10,6 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 
 if (number1 > number2)
     Console.WriteLine($"Число {number1} больше чем число {number2}");
+else if (number1 == number2)
+    Console.WriteLine($"Число {number1} равен числу {number2}");
 else Console.WriteLine($"Число {number2} больше чем число {number1}");
